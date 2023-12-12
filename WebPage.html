@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Menu</title>
+  <style>
+    /* Add some basic styling for the menu */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color:darkolivegreen;
+      overflow: hidden;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #ddd;
+    }
+    form{
+      text-align: center;
+      background-position: 20;
+      background-color: rgb(98, 146, 174)
+      ;
+      
+
+    }h3{
+      color: rgb(219, 11, 11);
+    }
+       h2{
+        text-align: center;
+        color: blueviolet;
+        
+      }
+      .login-form{
+        background-image:linear-gradient(black,black,url(nature.png));
+      }
+       
+
+      .form-box{
+        background-size: 20px;
+        width: 380px;
+            height: 480px;
+            position:relative;
+            margin: 6% auto;
+            background: white;
+            padding: 1px;
+            overflow: hidden;
+      }
+
+      footer{
+        text-align: center;
+        bottom: 200px;
+      }
+      marquee{
+        background-color: darkkhaki;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+        margin: 20px;
+        font-size: medium;
+        transition: .5s;
+        color: greenyellow;
+      }
+  </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="#home"><img src="home-icon.png" alt="Home" width="30" height="30"></a></li>
+        <li><a href="#about"><img src="about-icon.png" alt="About" width="30" height="30"></a></li>
+        <li><a href="#services"><img src="services-icon.png" alt="Services" width="30" height="30"></a></li>
+        <li><a href="#contact"><img src="contact-icon.png" alt="Contact" width="30" height="30"></a></li>
+
+      </ul>
+      <hr><hr>
+      <header align="center" size="200px"><marquee>Welcome to the page</marquee>
+        
+      </header>
+     
+      <hr><hr>
+      <div class="form-box">
+    
+        <h2 >Login Form:</h2>
+        <form class="login-form" action="#" method="post"><br></br>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="username" required><br></br>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="password" required><br></br>
+          </div>
+          <div class="form-group">
+            <button type="submit">Login</button><br></br>
+          </div>
+        </form>
+       
+
+
+</body>
+
+<footer>@copy aravind@111</footer>
+
+
+</html>
